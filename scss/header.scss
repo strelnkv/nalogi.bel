@@ -13,6 +13,11 @@
   a:hover {
     color: #0fa7a0;
   }
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+  }
   &__number {
     background-color: #0e6c67;
     padding: 12px 16px;
