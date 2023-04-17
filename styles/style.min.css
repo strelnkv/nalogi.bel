@@ -275,5 +275,47 @@ body {
   align-self: flex-end;
   padding-bottom: 20%;
 }
+.why-us__list {
+  height: 950px;
+  padding: 5% 0;
+}
+.why-us__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
+  font-style: normal;
+  font-weight: 700;
+}
+.why-us__grid {
+  height: 100%;
+  padding-top: 5%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+@media screen and (min-width: 768px) {
+  .why-us__grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}
+.why-us__li {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 5%;
+  max-width: fit-content;
+  font-family: "Open Sans", sans-serif;
+  src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+.why-us .why-us__icon {
+  max-height: 60px;
+}
+.why-us .why-us__text {
+  max-width: 70%;
+}
 
 /*# sourceMappingURL=style.min.css.map */

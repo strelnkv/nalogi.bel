@@ -1,21 +1,24 @@
 .why-us {
-    &__background{
+    &__background {
         background-color: #F0F1F6;
     }
+
     &__quote {
         height: 450px;
         display: grid;
         grid-template-columns: 15% 1fr 15%;
         grid-template-areas: "why-us__mark-1 why-us__text-0 why-us__mark-2";
     }
+
     &__mark-1 {
         justify-self: center;
         padding-top: 20%;
     }
+
     &__text-0 {
         text-align: center;
         align-self: center;
-        text-transform:uppercase;
+        text-transform: uppercase;
         line-height: 180%;
 
         font-family: "Open Sans", sans-serif;
@@ -23,9 +26,60 @@
         font-style: normal;
         font-weight: 700;
     }
+
     &__mark-2 {
         justify-self: center;
-        align-self:flex-end;
+        align-self: flex-end;
         padding-bottom: 20%;
     }
+
+    &__list {
+        height: 950px;
+        padding: 5% 0;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        text-align: center;
+
+        font-family: "Open Sans", sans-serif;
+        src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    &__grid {
+        height: 100%;
+        padding-top: 5%;
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+        @media screen and (min-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+    }
+
+    &__li {
+        display: flex;
+        gap: 20px;
+        padding-bottom: 5%;
+        max-width: fit-content;
+
+        font-family: "Open Sans", sans-serif;
+        src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px
+    }
+
+    .why-us__icon {
+        max-height: 60px;
+    }
+
+    .why-us__text {
+        max-width: 70%;
+    }
+
 }
