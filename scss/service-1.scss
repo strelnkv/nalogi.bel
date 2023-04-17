@@ -1,0 +1,36 @@
+.service-1 {
+  background-color: #f0f1f6;
+  padding-bottom: 50px;
+  &__wrap {
+    display: flex;
+    align-items: center;
+  }
+  &__img {
+    position: relative;
+    left: 45px;
+  }
+  &__desc {
+    background-color: #fff;
+    max-width: 875px;
+    margin-top: 20px;
+    padding-bottom: 130px;
+  }
+  &__desc-title {
+    padding: 31px 150px 15px;
+    text-align: center;
+  }
+  &__desc-start {
+    font-size: 20px;
+    line-height: 1.3;
+    padding-left: 120px;
+    padding-bottom: 25px;
+  }
+  &__desc-parts {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+  }
+}
