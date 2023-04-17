@@ -1,11 +1,26 @@
-.services__item-all {
-  padding-top: 80px;
+.services {
+  &__h2 {
+    text-transform: uppercase;
+  }
+  .services__item-all {
+    padding-top: 80px;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
-  &__item {
-    flex-direction: column;
+    &__item {
+      flex-direction: column;
+      &__p {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 28px;
+        &__a {
+          text-decoration: none;
+          color: #0e6c67;
+        }
+      }
+    }
   }
 }
