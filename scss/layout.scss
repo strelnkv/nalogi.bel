@@ -1,13 +1,13 @@
 // Файл с общими стилями
 @font-face {
-  font-family: "DM Sans", sans-serif;
-  src: url(../assets/fonts/);
+  font-family: "Open Sans", sans-serif;
+  src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: "DM Sans", sans-serif;
-  src: url(../assets/fonts/);
+  font-family: "Open Sans", sans-serif;
+  src: url(../assets/fonts/open-sans-v34-latin-700.woff2);
   font-style: normal;
   font-weight: 700;
 }
@@ -28,10 +28,17 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  color: #000;
+  color: #24312d;
 }
 .container {
-  max-width: 1220px;
+  max-width: 1280px;
   padding: 0 10px;
   margin: 0 auto;
+}
+// Оформление для заголовков
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.3;
+  color: #0e6c67;
 }
