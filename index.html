@@ -1,205 +1,197 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NALOGI.BEL</title>
-    <link rel="icon" href="./assets/images/head-img-1.png" />
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/style.min.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__cont container">
-        <img
-          class="header__logo"
-          src="./assets/images/header-img-logo.svg"
-          alt="nalogi.bel"
-        />
-        <ul class="header__nav">
-          <li><a class="header__items" href="">услуги</a></li>
-          <li><a class="header__items" href="">обо мне</a></li>
-          <li><a class="header__items" href="">преимущества</a></li>
-          <li><a class="header__items" href="">публикации</a></li>
-          <li><a class="header__items" href="">контакты</a></li>
-        </ul>
-        <a class="header__number" href="tel:+375447563608">
-          <p>Контактный номер</p>
-          <img src="./assets/images/header-img-phone.svg" alt=""
-        /></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NALOGI.BEL</title>
+  <link rel="icon" href="./assets/images/head-img-1.png" />
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/style.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__cont container">
+      <img class="header__logo" src="./assets/images/header-img-logo.svg" alt="nalogi.bel" />
+      <ul class="header__nav">
+        <li><a class="header__items" href="">услуги</a></li>
+        <li><a class="header__items" href="">обо мне</a></li>
+        <li><a class="header__items" href="">преимущества</a></li>
+        <li><a class="header__items" href="">публикации</a></li>
+        <li><a class="header__items" href="">контакты</a></li>
+      </ul>
+      <a class="header__number" href="tel:+375447563608">
+        <p>Контактный номер</p>
+        <img src="./assets/images/header-img-phone.svg" alt="" />
+      </a>
+    </div>
+  </header>
+  <main>
+    <!--start hero-->
+    <section class="hero">
+      <div class="hero__cont container">
+        <h1 class="hero__description">
+          Налоговый консультант<br />
+          Главный бухгалтер<br />
+          <span>Тихонова Татьяна</span>
+        </h1>
+        <div class="hero__pros">
+          <div class="hero__pros__item">
+            <img src="./assets/images/hero-img-1.svg" alt="" />
+            <p>профессиональные бухгалтерские услуги</p>
+          </div>
+          <div class="hero__pros__item">
+            <img src="./assets/images/hero-img-2.svg" alt="" />
+            <p>услуги по налоговому консультированию</p>
+          </div>
+          <div class="hero__pros__item">
+            <img src="./assets/images/hero-img-3.svg" alt="" />
+            <p>сопровождение в налоговых и документальных проверках</p>
+          </div>
+        </div>
       </div>
-    </header>
-    <main>
-      <!--start hero-->
-      <section class="hero">
-        <div class="hero__cont container">
-          <h1 class="hero__description">
-            Налоговый консультант<br />
-            Главный бухгалтер<br />
-            <span>Тихонова Татьяна</span>
-          </h1>
-          <div class="hero__pros">
-            <div class="hero__pros__item">
-              <img src="./assets/images/hero-img-1.svg" alt="" />
-              <p>профессиональные бухгалтерские услуги</p>
+    </section>
+    <!--end hero-->
+    <!--start services-->
+    <section class="services, container">
+      <h2 class="services__h2, title" id="services">
+        Услуги, которые мы оказываем
+      </h2>
+      <div class="services__item-all">
+        <div class="services__item">
+          <picture>
+            <source srcset="assets/images/services-img-1.png" media="(min-width: 1024px)" />
+            <img src="assets/images/services-img-1-mobile.png" alt="cup" /></picture>
+          <p class="services__p">
+            <a class="services__a" href="">Профессиональные бухгалтерские услуги</a>
+          </p>
+        </div>
+        <div class="services__item">
+          <picture>
+            <source srcset="assets/images/services-img-2.png" media="(min-width: 1024px)" />
+            <img src="assets/images/services-img-2-mobile.png" alt="laptop" /></picture>
+          <p class="services__p">
+            <a class="services__a" href="">Налоговое консультирование</a>
+          </p>
+        </div>
+        <div class="services__item">
+          <picture>
+            <source srcset="assets/images/services-img-3.png" media="(min-width: 1024px)" />
+            <img src="assets/images/services-img-3-mobile.png" alt="notebook" /></picture>
+          <p class="services__p">
+            <a class="services__a" href="">
+              Сопровождение в налоговых и документальных проверках
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--end services-->
+    <!--start about me-->
+    <section class="aboutme, container">
+      <h2 class="aboutme__h2, title">Обо мне</h2>
+      <div class="aboutme__content">
+        <picture>
+          <source srcset="assets/images/aboutme-img-1.png" media="(min-width: 1024px)" />
+          <img class="aboutme__img1" src="assets/images/aboutme-img-1-mobile.png" alt="Тихонова Татьяна" /></picture>
+        <div class="aboutme__content-right">
+          <div class="aboutme__container">
+            <div class="aboutme__text1">
+              <p class="aboutme__p1">
+                Я главный бухгалтер с 15-летним стажем и аттестованный
+                налоговый консультант.
+              </p>
+              <p class="aboutme__p1">
+                Набираясь главнобухгалтерского опыта, я прошла сложный,
+                интересный и познавательный путь. Не люблю работать по
+                упрощенным шаблонам, нахожу оптимальные, индивидуальные и
+                только законные решения для каждого клиента.
+              </p>
+              <p class="aboutme__p1">
+                Это всегда интересно, живо и результативно! На личном опыте
+                ощутила все прелести ответственности главного бухгалтера.
+                Компетенцию, как налоговый консультант, повышала, работая
+                совместно с адвокатом по уголовным делам.
+              </p>
+              <p class="aboutme__p1">
+                А реализовывается задуманное вместе с надёжными партнёрами и
+                сплетенной командой! Сегодня я знаю, кто я и куда стремлюсь! Я
+                совершенно точно могу сказать, что люблю свою работу!
+              </p>
             </div>
-            <div class="hero__pros__item">
-              <img src="./assets/images/hero-img-2.svg" alt="" />
-              <p>услуги по налоговому консультированию</p>
+            <div class="aboutme__text2">
+              <h3 class="aboutme__h3">Татьяна Григорьевна Тихонова</h3>
+              <p class="aboutme__p2">
+                Налоговый консультант, главный бухгалтер
+              </p>
             </div>
-            <div class="hero__pros__item">
-              <img src="./assets/images/hero-img-3.svg" alt="" />
-              <p>сопровождение в налоговых и документальных проверках</p>
-            </div>
+            <img class="aboutme__img2" src="assets/images/aboutme-img-2.svg" alt="quotes" />
           </div>
         </div>
-      </section>
-      <!--end hero-->
-      <!--start services-->
-      <section class="services, container">
-        <h2 class="services__h2, title" id="services">
-          Услуги, которые мы оказываем
-        </h2>
-        <div class="services__item-all">
-          <div class="services__item">
-            <picture
-              ><source
-                srcset="assets/images/services-img-1.png"
-                media="(min-width: 1024px)" />
-              <img src="assets/images/services-img-1-mobile.png" alt="cup"
-            /></picture>
-            <p class="services__p">
-              <a class="services__a" href=""
-                >Профессиональные бухгалтерские услуги</a
-              >
-            </p>
-          </div>
-          <div class="services__item">
-            <picture
-              ><source
-                srcset="assets/images/services-img-2.png"
-                media="(min-width: 1024px)" />
-              <img src="assets/images/services-img-2-mobile.png" alt="laptop"
-            /></picture>
-            <p class="services__p">
-              <a class="services__a" href="">Налоговое консультирование</a>
-            </p>
-          </div>
-          <div class="services__item">
-            <picture
-              ><source
-                srcset="assets/images/services-img-3.png"
-                media="(min-width: 1024px)" />
-              <img src="assets/images/services-img-3-mobile.png" alt="notebook"
-            /></picture>
-            <p class="services__p">
-              <a class="services__a" href="">
-                Сопровождение в налоговых и документальных проверках
-              </a>
-            </p>
-          </div>
-        </div>
-      </section>
-      <!--end services-->
-      <!--start about me-->
-      <section class="aboutme, container">
-        <h2 class="aboutme__h2, title">Обо мне</h2>
-        <div class="aboutme__content">
-          <picture
-            ><source
-              srcset="assets/images/aboutme-img-1.png"
-              media="(min-width: 1024px)" />
-            <img
-              class="aboutme__img1"
-              src="assets/images/aboutme-img-1-mobile.png"
-              alt="Тихонова Татьяна"
-          /></picture>
-          <div class="aboutme__content-right">
-            <div class="aboutme__container">
-              <div class="aboutme__text1">
-                <p class="aboutme__p1">
-                  Я главный бухгалтер с 15-летним стажем и аттестованный
-                  налоговый консультант.
-                </p>
-                <p class="aboutme__p1">
-                  Набираясь главнобухгалтерского опыта, я прошла сложный,
-                  интересный и познавательный путь. Не люблю работать по
-                  упрощенным шаблонам, нахожу оптимальные, индивидуальные и
-                  только законные решения для каждого клиента.
-                </p>
-                <p class="aboutme__p1">
-                  Это всегда интересно, живо и результативно! На личном опыте
-                  ощутила все прелести ответственности главного бухгалтера.
-                  Компетенцию, как налоговый консультант, повышала, работая
-                  совместно с адвокатом по уголовным делам.
-                </p>
-                <p class="aboutme__p1">
-                  А реализовывается задуманное вместе с надёжными партнёрами и
-                  сплетенной командой! Сегодня я знаю, кто я и куда стремлюсь! Я
-                  совершенно точно могу сказать, что люблю свою работу!
-                </p>
-              </div>
-              <div class="aboutme__text2">
-                <h3 class="aboutme__h3">Татьяна Григорьевна Тихонова</h3>
-                <p class="aboutme__p2">
-                  Налоговый консультант, главный бухгалтер
-                </p>
-              </div>
-              <img
-                class="aboutme__img2"
-                src="assets/images/aboutme-img-2.svg"
-                alt="quotes"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--end about me-->
-      <!--start why us-->
-      <section class="why-us">
+      </div>
+    </section>
+    <!--end about me-->
+    <!--start why us-->
+    <section class="why-us">
+      <div class="why-us__background">
         <div class="why-us__quote container">
-          <img src="assets/images/whyus-img-1.png" alt="Quotation mark">
-          <p class="title"> Хороший бухгалтер стоит дорого, плохой — еще дороже</p>
-          <img src="assets/images/whyus-img-2.png" alt="Quotation mark">
-        </div>
-        <div class="why-us__list container">
-          <h2 class="title why-us__title">Почему вы можете нам доверять</h2>
-          <div class="why-us__li">
-            <img src="assets/images/whyus-img-3.png" alt="Icon" class="why-us__icon-1">
-            <p class="why-us__text-1">Мы предоставляем комплексное бухгалтерское обслуживание (сопровождение) финансово-хозяйственной деятельности на высоком профессиональном уровне и на постоянной основе в сочетании с консультированием. Вы оплачиваете только фактические хозяйственные операции, а не время, проведенное сотрудниками в офисе;</p>
+          <div class="why-us__mark-1">
+            <img src="assets/images/whyus-img-1.png" alt="Quotation mark">
           </div>
-          <div class="why-us__li">
-            <img src="assets/images/Whyus-img-4.png" alt="Icon" class="why-us__icon-2">
-            <p class="why-us__text-2">При оказании услуг мы гарантируем соблюдение профессиональных и этических норм принятых в профессиональном сообществе;</p>
-          </div>
-          <div class="why-us__li">
-            <img src="assets/images/whyus-img-5.png" alt="Icon" class="why-us__icon-3">
-            <p class="why-us__text-3">Возможность использования для ведения бухгалтерского и налогового учета знаний и накопленного опыта высококвалифицированных специалистов;</p>
-          </div>
-          <div class="why-us__li">
-            <img src="assets/images/whyus-img-6.png" alt="Icon" class="why-us__icon-4">
-            <p class="why-us__text-4">Бесплатные консультации по текущему бухгалтерскому учету для обслуживаемых организаций;</p>
-          </div>
-          <div class="why-us__li">
-            <img src="assets/images/whyus-img-7.png" alt="Icon" class="why-us__icon-5">
-            <p class="why-us__text-5">Адекватные цены при высоком качестве: — мы экономим время, потому что нам уже знакомы большинство операций. Средняя стоимость бухгалтерских услуг примерно в 2 раза ниже средней заработной платы главного бухгалтера;</p>
-          </div>
-          <div class="why-us__li">
-            <img src="assets/images/whyus-img-8.png" alt="Icon" class="why-us__icon-6">
-            <p class="why-us__text-6">Эффективность взаимодействия с государственными инстанциями: защита и отстаивание правоты клиента в случае налоговых проверок;</p>
-          </div>
-          <div class="why-us__li">
-            <img src="assets/images/whyus-img-9.png" alt="Icon" class="why-us__icon-7">
-            <p class="why-us__text-7">Cнижение степени риска при наличии у субъекта договора оказания комплексных услуг по налоговому консультированию, заключенного с субъектом хозяйствования, являющимся налоговым консультантом.</p>
+          <p class="why-us__text-0 title"> Хороший бухгалтер стоит дорого, плохой — еще дороже</p>
+          <div class="why-us__mark-2">
+            <img src="assets/images/whyus-img-2.png" alt="Quotation mark">
           </div>
         </div>
-      </section>
-      <!--end why us-->
-    </main>
-    <script
-      src="https://kit.fontawesome.com/77f105a234.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      </div>
+      <div class="why-us__list container">
+        <h2 class="title why-us__title">Почему вы можете нам доверять</h2>
+        <div class="why-us__li">
+          <img src="assets/images/whyus-img-3.png" alt="Icon" class="why-us__icon-1">
+          <p class="why-us__text-1">Мы предоставляем комплексное бухгалтерское обслуживание (сопровождение)
+            финансово-хозяйственной деятельности на высоком профессиональном уровне и на постоянной основе в сочетании с
+            консультированием. Вы оплачиваете только фактические хозяйственные операции, а не время, проведенное
+            сотрудниками в офисе;</p>
+        </div>
+        <div class="why-us__li">
+          <img src="assets/images/Whyus-img-4.png" alt="Icon" class="why-us__icon-2">
+          <p class="why-us__text-2">При оказании услуг мы гарантируем соблюдение профессиональных и этических норм
+            принятых в профессиональном сообществе;</p>
+        </div>
+        <div class="why-us__li">
+          <img src="assets/images/whyus-img-5.png" alt="Icon" class="why-us__icon-3">
+          <p class="why-us__text-3">Возможность использования для ведения бухгалтерского и налогового учета знаний и
+            накопленного опыта высококвалифицированных специалистов;</p>
+        </div>
+        <div class="why-us__li">
+          <img src="assets/images/whyus-img-6.png" alt="Icon" class="why-us__icon-4">
+          <p class="why-us__text-4">Бесплатные консультации по текущему бухгалтерскому учету для обслуживаемых
+            организаций;</p>
+        </div>
+        <div class="why-us__li">
+          <img src="assets/images/whyus-img-7.png" alt="Icon" class="why-us__icon-5">
+          <p class="why-us__text-5">Адекватные цены при высоком качестве: — мы экономим время, потому что нам уже
+            знакомы большинство операций. Средняя стоимость бухгалтерских услуг примерно в 2 раза ниже средней
+            заработной платы главного бухгалтера;</p>
+        </div>
+        <div class="why-us__li">
+          <img src="assets/images/whyus-img-8.png" alt="Icon" class="why-us__icon-6">
+          <p class="why-us__text-6">Эффективность взаимодействия с государственными инстанциями: защита и отстаивание
+            правоты клиента в случае налоговых проверок;</p>
+        </div>
+        <div class="why-us__li">
+          <img src="assets/images/whyus-img-9.png" alt="Icon" class="why-us__icon-7">
+          <p class="why-us__text-7">Cнижение степени риска при наличии у субъекта договора оказания комплексных услуг по
+            налоговому консультированию, заключенного с субъектом хозяйствования, являющимся налоговым консультантом.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--end why us-->
+  </main>
+  <script src="https://kit.fontawesome.com/77f105a234.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
