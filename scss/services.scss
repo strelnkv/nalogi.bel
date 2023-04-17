@@ -1,0 +1,11 @@
+.services__item-all {
+  padding-top: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  &__item {
+    flex-direction: column;
+  }
+}
