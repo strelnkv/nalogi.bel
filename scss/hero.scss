@@ -1,0 +1,28 @@
+.hero {
+  background-color: #f0f1f6;
+  padding-top: 80px;
+  padding-bottom: 340px;
+
+  &__description {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #0e6c67;
+    span {
+      color: #24312d;
+    }
+  }
+  &__pros {
+    padding-top: 63px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &__pros__item {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    font-size: 20px;
+  }
+}

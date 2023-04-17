@@ -10,22 +10,49 @@
     <link rel="stylesheet" href="styles/style.min.css" />
   </head>
   <body>
-    <header class="header container">
-      <img
-        class="header-logo"
-        src="./assets/images/header-img-logo.svg"
-        alt="nalogi.bel"
-      />
-      <a class="header__items" href="">услуги</a>
-      <a class="header__items" href="">обо мне</a>
-      <a class="header__items" href="">преимущества</a>
-      <a class="header__items" href="">публикации</a>
-      <a class="header__items" href="">контакты</a>
-      <a class="header__number" href="tel:+375447563608">
-        <p>Контактный номер</p>
-        <img src="./assets/images/header-img-phone.svg" alt=""
-      /></a>
+    <header class="header">
+      <div class="header__cont container">
+        <img
+          class="header__logo"
+          src="./assets/images/header-img-logo.svg"
+          alt="nalogi.bel"
+        />
+        <ul class="header__nav">
+          <li><a class="header__items" href="">услуги</a></li>
+          <li><a class="header__items" href="">обо мне</a></li>
+          <li><a class="header__items" href="">преимущества</a></li>
+          <li><a class="header__items" href="">публикации</a></li>
+          <li><a class="header__items" href="">контакты</a></li>
+        </ul>
+        <a class="header__number" href="tel:+375447563608">
+          <p>Контактный номер</p>
+          <img src="./assets/images/header-img-phone.svg" alt=""
+        /></a>
+      </div>
     </header>
+    <section class="hero">
+      <div class="hero__cont container">
+        <h1 class="hero__description">
+          Налоговый консультант<br />
+          Главный бухгалтер<br />
+          <span>Тихонова Татьяна</span>
+        </h1>
+        <div class="hero__pros">
+          <div class="hero__pros__item">
+            <img src="./assets/images/hero-img-1.svg" alt="" />
+            <p>профессиональные бухгалтерские услуги</p>
+          </div>
+          <div class="hero__pros__item">
+            <img src="./assets/images/hero-img-2.svg" alt="" />
+            <p>услуги по налоговому консультированию</p>
+          </div>
+          <div class="hero__pros__item">
+            <img src="./assets/images/hero-img-3.svg" alt="" />
+            <p>сопровождение в налоговых и документальных проверках</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <script
       src="https://kit.fontawesome.com/77f105a234.js"
       crossorigin="anonymous"
