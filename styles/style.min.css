@@ -115,22 +115,22 @@ body {
 .services__h2 {
   text-transform: uppercase;
 }
-.services .services__item-all {
+.services__item-all {
   padding-top: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.services .services__item-all__item {
+.services__item-all__item {
   flex-direction: column;
 }
-.services .services__item-all__item__p {
+.services__item-all__item__p {
   font-family: "Open Sans";
   font-weight: 800;
   font-size: 24px;
   line-height: 28px;
 }
-.services .services__item-all__item__p__a {
+.services__item-all__item__p__a {
   text-decoration: none;
   color: #0e6c67;
 }
