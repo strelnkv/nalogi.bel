@@ -247,4 +247,33 @@ body {
   z-index: 1;
 }
 
+.why-us__background {
+  background-color: #F0F1F6;
+}
+.why-us__quote {
+  height: 450px;
+  display: grid;
+  grid-template-columns: 15% 1fr 15%;
+  grid-template-areas: "why-us__mark-1 why-us__text-0 why-us__mark-2";
+}
+.why-us__mark-1 {
+  justify-self: center;
+  padding-top: 20%;
+}
+.why-us__text-0 {
+  text-align: center;
+  align-self: center;
+  text-transform: uppercase;
+  line-height: 180%;
+  font-family: "Open Sans", sans-serif;
+  src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
+  font-style: normal;
+  font-weight: 700;
+}
+.why-us__mark-2 {
+  justify-self: center;
+  align-self: flex-end;
+  padding-bottom: 20%;
+}
+
 /*# sourceMappingURL=style.min.css.map */
