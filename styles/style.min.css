@@ -114,28 +114,57 @@ body {
 
 .services__h2 {
   text-transform: uppercase;
+  text-align: center;
+  padding: 80px 0;
 }
 .services__item-all {
-  padding-top: 80px;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 .services__item-all__item {
   flex-direction: column;
 }
-.services__item-all__item__p {
-  font-family: "Open Sans";
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 28px;
+
+.services__content {
+  padding-bottom: 150px;
 }
-.services__item-all__item__p__a {
+
+.services__item:nth-child(1) {
+  width: 328px;
+}
+
+.services__item:nth-child(2) {
+  width: 289px;
+}
+
+.services__item:nth-child(3) {
+  width: 289px;
+}
+
+img:not(:last-child) {
+  padding-bottom: 39px;
+}
+
+img:last-child {
+  padding-bottom: 21px;
+}
+
+.services__wrap {
+  text-align: center;
+}
+.services__wrap .services__a {
   text-decoration: none;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
   color: #0e6c67;
+}
+.services__wrap .services__a:hover {
+  color: #0fa7a0;
 }
 
 .aboutme__h2 {
+  text-align: center;
   text-transform: uppercase;
 }
 
