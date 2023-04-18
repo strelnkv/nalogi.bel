@@ -243,4 +243,130 @@ body {
   color: #0e6c67;
 }
 
+.services__h2 {
+  text-transform: uppercase;
+}
+.services .services__item-all {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.services .services__item-all__item {
+  flex-direction: column;
+}
+.services .services__item-all__item__p {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+}
+.services .services__item-all__item__p__a {
+  text-decoration: none;
+  color: #0e6c67;
+}
+
+.aboutme__h2 {
+  text-transform: uppercase;
+}
+
+.aboutme__content {
+  display: flex;
+}
+
+.aboutme__text {
+  background-color: #f0f1f6;
+}
+
+.aboutme__p1,
+.aboutme__h3,
+.aboutme__p2 {
+  color: #6e7d7a;
+}
+
+.aboutme__img1 {
+  position: relative;
+  z-index: -1;
+}
+
+.aboutme__img2 {
+  position: absolute;
+  left: 83.12%;
+  right: 9.78%;
+  top: 17.68%;
+  bottom: 74.23%;
+  z-index: 1;
+}
+
+.why-us__background {
+  background-color: #F0F1F6;
+}
+.why-us__quote {
+  height: 450px;
+  display: grid;
+  grid-template-columns: 15% 1fr 15%;
+  grid-template-areas: "why-us__mark-1 why-us__text-0 why-us__mark-2";
+}
+.why-us__mark-1 {
+  justify-self: center;
+  padding-top: 20%;
+}
+.why-us__text-0 {
+  text-align: center;
+  align-self: center;
+  text-transform: uppercase;
+  line-height: 180%;
+  font-family: "Open Sans", sans-serif;
+  src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
+  font-style: normal;
+  font-weight: 700;
+}
+.why-us__mark-2 {
+  justify-self: center;
+  align-self: flex-end;
+  padding-bottom: 20%;
+}
+.why-us__list {
+  height: 950px;
+  padding: 5% 0;
+}
+.why-us__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
+  font-style: normal;
+  font-weight: 700;
+}
+.why-us__grid {
+  height: 100%;
+  padding-top: 5%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+@media screen and (min-width: 768px) {
+  .why-us__grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}
+.why-us__li {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 5%;
+  max-width: fit-content;
+  font-family: "Open Sans", sans-serif;
+  src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+.why-us .why-us__icon {
+  max-height: 60px;
+}
+.why-us .why-us__text {
+  max-width: 70%;
+}
+
 /*# sourceMappingURL=style.min.css.map */
