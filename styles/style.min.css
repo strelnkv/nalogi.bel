@@ -429,4 +429,57 @@ img:last-child {
   font-size: 20px;
 }
 
+.article {
+  background-color: #f0f1f6;
+  padding-bottom: 80px;
+}
+.article__container {
+  background-color: #fff;
+  padding: 0 80px 50px 80px;
+}
+.article__h1 {
+  font-family: "Open Sans", sans-serif;
+  src: url(../assets/fonts/open-sans-v34-latin-700.woff2);
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(12px + 1.3888888889vw);
+  line-height: 1.25;
+  color: #0e6c67;
+  text-align: center;
+  padding: 15px 0 25px;
+  max-width: 1240px;
+}
+.article__authors {
+  font-style: italic;
+  font-weight: 400;
+  font-size: calc(6px + 0.6944444444vw);
+  line-height: 27px;
+  text-align: right;
+  line-height: 1.25;
+}
+.article__author {
+  padding-bottom: 25px;
+}
+.article__text {
+  line-height: 1.25;
+  font-size: calc(6px + 0.6944444444vw);
+  padding-bottom: 12px;
+  text-align: justify;
+}
+.article__text-link {
+  line-height: 1.25;
+  font-size: calc(6px + 0.6944444444vw);
+  padding-top: 25px;
+}
+.article__img-1 {
+  max-width: 100%;
+}
+.article__bullits-points {
+  line-height: 1.25;
+  font-size: calc(6px + 0.6944444444vw);
+  padding-left: 15px;
+  padding-bottom: 12px;
+  text-align: justify;
+}
+
 /*# sourceMappingURL=style.min.css.map */

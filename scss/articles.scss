@@ -1,0 +1,53 @@
+.article {
+  background-color: #f0f1f6;
+  padding-bottom: 80px;
+
+  &__container {
+    background-color: #fff;
+    padding: 0 80px 50px 80px;
+  }
+  &__h1 {
+    font-family: "Open Sans", sans-serif;
+    src: url(../assets/fonts/open-sans-v34-latin-700.woff2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(12px + 20 * (100vw / 1440));
+    line-height: 1.25;
+    color: #0e6c67;
+    text-align: center;
+    padding: 15px 0 25px;
+    max-width: 1240px;
+  }
+  &__authors {
+    font-style: italic;
+    font-weight: 400;
+    font-size: calc(6px + 10 * (100vw / 1440));
+    line-height: 27px;
+    text-align: right;
+    line-height: 1.25;
+  }
+  &__author {
+    padding-bottom: 25px;
+  }
+  &__text {
+    line-height: 1.25;
+    font-size: calc(6px + 10 * (100vw / 1440));
+    padding-bottom: 12px;
+    text-align: justify;
+  }
+  &__text-link {
+    line-height: 1.25;
+    font-size: calc(6px + 10 * (100vw / 1440));
+    padding-top: 25px;
+  }
+  &__img-1 {
+    max-width: 100%;
+  }
+  &__bullits-points {
+    line-height: 1.25;
+    font-size: calc(6px + 10 * (100vw / 1440));
+    padding-left: 15px;
+    padding-bottom: 12px;
+    text-align: justify;
+  }
+}
