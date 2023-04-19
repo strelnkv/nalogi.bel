@@ -264,15 +264,27 @@ body {
 }
 
 .prices {
-  max-height: 450px;
-  border: 1px solid red;
+  height: 450px;
 }
 .prices__background {
   background-color: #F0F1F6;
+  height: 100%;
+  position: relative;
+}
+.prices__pattern {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 50%;
 }
 .prices__body {
-  max-width: 75%;
-  border: 1px solid red;
+  max-width: 700px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  padding-top: 5%;
 }
 .prices__title {
   text-transform: uppercase;
@@ -289,6 +301,13 @@ body {
   font-weight: 400;
   font-size: 22px;
 }
+.prices__picture {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 50%;
+}
+
 .service-1 {
   background-color: #f0f1f6;
   padding-bottom: 50px;
