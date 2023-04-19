@@ -491,10 +491,15 @@ body {
   background-color: #ffffff;
   border: 3px solid #0e6c67;
 }
+@media (max-width: 992px) {
+  .service-3__part1-desc {
+    padding: 50px 30px;
+  }
+}
 @media (max-width: 768px) {
   .service-3__part1-desc {
     position: static;
-    padding: 50px 30px;
+    padding: 40px 30px;
   }
 }
 @media (max-width: 576px) {
@@ -507,6 +512,11 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 1.2;
+}
+@media (max-width: 992px) {
+  .service-3__part1-item {
+    font-size: 27px;
+  }
 }
 @media (max-width: 768px) {
   .service-3__part1-item {
@@ -527,6 +537,11 @@ body {
   align-items: center;
   padding-top: 50px;
 }
+@media (max-width: 992px) {
+  .service-3__part2 {
+    gap: 35px;
+  }
+}
 @media (max-width: 768px) {
   .service-3__part2 {
     flex-direction: column;
@@ -546,6 +561,11 @@ body {
   line-height: 1.2;
   color: #0e6c67;
 }
+@media (max-width: 992px) {
+  .service-3__resume {
+    padding: 40px 80px;
+  }
+}
 @media (max-width: 768px) {
   .service-3__resume {
     padding: 35px 50px;
@@ -563,6 +583,11 @@ body {
   padding: 50px 30px 25px;
   background-color: #ffffff;
   border: 3px solid #0e6c67;
+}
+@media (max-width: 992px) {
+  .desc-left {
+    max-width: 55%;
+  }
 }
 @media (max-width: 768px) {
   .desc-left {
@@ -606,6 +631,11 @@ body {
   background-color: #ffffff;
   border: 3px solid #0e6c67;
 }
+@media (max-width: 992px) {
+  .desc-right {
+    max-width: 45%;
+  }
+}
 @media (max-width: 768px) {
   .desc-right {
     max-width: 100%;
@@ -620,6 +650,11 @@ body {
   padding-bottom: 10px;
   font-size: 32px;
   line-height: 1.2;
+}
+@media (max-width: 992px) {
+  .desc-right__tit {
+    font-size: 26px;
+  }
 }
 @media (max-width: 576px) {
   .desc-right__tit {
