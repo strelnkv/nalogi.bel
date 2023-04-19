@@ -7,10 +7,6 @@
     padding: 0 80px 50px 80px;
   }
   &__h1 {
-    font-family: "Open Sans", sans-serif;
-    src: url(../assets/fonts/open-sans-v34-latin-700.woff2);
-    font-style: normal;
-    font-weight: 400;
     font-size: calc(10px + 20 * (100vw / 1440));
     line-height: 1.25;
     color: #0e6c67;
