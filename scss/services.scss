@@ -6,8 +6,8 @@
   }
   &__item-all {
     display: flex;
-    justify-content: space-around;
-    //column-gap: 45px;
+    justify-content: center;
+    column-gap: 45px;
     padding-bottom: 150px;
   }
 }
@@ -17,7 +17,7 @@
   flex-direction: column;
 }
 
-img {
+.services__img {
   padding-bottom: 21px;
 }
 

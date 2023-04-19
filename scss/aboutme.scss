@@ -9,8 +9,17 @@
   display: flex;
 }
 
-.aboutme__text {
+.aboutme__h2 {
+  padding: 80px 0 45px;
+}
+
+.aboutme__text1 {
+  width: 768px;
+  padding: 32px 26px;
+  position: relative;
+  z-index: 1;
   background-color: #f0f1f6;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
 }
 
 .aboutme__p1,
@@ -19,8 +28,36 @@
   color: #6e7d7a;
 }
 
+.aboutme__p1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.aboutme__text2 {
+  padding-top: 25px;
+  padding-left: 75px;
+}
+
+.aboutme__h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.aboutme__p2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
 .aboutme__img1 {
-  position: relative;
   z-index: -1;
 }
 

@@ -1,25 +1,58 @@
 .service-2 {
   background-color: #f0f1f6;
   padding-bottom: 50px;
+  @media (max-width: 992px) {
+    padding-bottom: 30px;
+  }
+  @media (max-width: 576px) {
+    padding-bottom: 0;
+  }
   &__container {
     background-color: #fff;
   }
   &__title {
     padding: 15px 0;
     text-align: center;
+    @media (max-width: 992px) {
+      font-size: 35px;
+    }
+    @media (max-width: 576px) {
+      font-size: 30px;
+    }
   }
   &__wrap {
     display: flex;
     gap: 55px;
     align-items: center;
+    @media (max-width: 1024px) {
+      gap: 45px;
+    }
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+    @media (max-width: 576px) {
+      gap: 20px;
+    }
   }
   &__desc {
     padding-left: 30px;
+    @media (max-width: 992px) {
+      padding-left: 20px;
+    }
+    @media (max-width: 576px) {
+      padding-left: 10px;
+    }
   }
   &__desc-item {
     font-size: 20px;
     line-height: 1.2;
     padding-bottom: 15px;
+    @media (max-width: 992px) {
+      font-size: 18px;
+    }
+    @media (max-width: 576px) {
+      font-size: 16px;
+    }
   }
   &__desc-parts {
     display: flex;
@@ -27,8 +60,16 @@
     align-items: center;
     padding-bottom: 15px;
   }
+  &__desc-text {
+    @media (max-width: 576px) {
+      font-size: 14px;
+    }
+  }
   &__img {
     padding-right: 70px;
+    @media (max-width: 1024px) {
+      padding-right: 0;
+    }
   }
   &__resume {
     padding: 55px 80px;
@@ -37,5 +78,13 @@
     font-size: 20px;
     line-height: 1.2;
     color: #0e6c67;
+    @media (max-width: 992px) {
+      padding: 40px 60px;
+    }
+    @media (max-width: 576px) {
+      padding: 20px 0;
+      text-align: start;
+      font-size: 16px;
+    }
   }
 }
