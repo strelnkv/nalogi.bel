@@ -25,6 +25,11 @@
         src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
         font-style: normal;
         font-weight: 700;
+        font-size: 40px;
+
+        @media screen and (max-width: 767px) {
+            font-size: 30px;
+        };
     }
 
     &__mark-2 {
@@ -45,10 +50,15 @@
         src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
         font-style: normal;
         font-weight: 700;
+        font-size: 40px;
+
+        @media screen and (max-width: 767px) {
+            font-size: 30px;
+        };
     }
 
     &__grid {
-
+        justify-content: center;
         padding-top: 10%;
         display: grid;
         grid-auto-flow: column;
