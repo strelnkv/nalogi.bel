@@ -1,0 +1,41 @@
+.prices {
+    max-height: 450px;
+
+    border: 1px solid red;
+
+    &__background {
+        background-color: #F0F1F6;
+    }
+
+    &__pattern {
+
+}
+
+    &__body {
+        max-width: 75%;
+        border: 1px solid red;
+}
+    &__title{
+        text-transform: uppercase;
+        text-align: center;
+
+        font-family: "Open Sans", sans-serif;
+        src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
+        font-style: normal;
+        font-weight: 700;
+
+    }
+    &__text{
+        font-family: "Open Sans", sans-serif;
+        src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+
+    }
+
+
+    &__picture {
+
+}
+}
