@@ -1,7 +1,7 @@
 .service-2 {
   background-color: #f0f1f6;
   padding-bottom: 50px;
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     padding-bottom: 30px;
   }
   @media (max-width: 576px) {
@@ -13,7 +13,7 @@
   &__title {
     padding: 15px 0;
     text-align: center;
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
       font-size: 35px;
     }
     @media (max-width: 576px) {
@@ -24,9 +24,11 @@
     display: flex;
     gap: 55px;
     align-items: center;
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
+      gap: 45px;
+    }
+    @media (max-width: 992px) {
       flex-direction: column;
-      gap: 40px;
     }
     @media (max-width: 576px) {
       gap: 20px;
@@ -34,7 +36,7 @@
   }
   &__desc {
     padding-left: 30px;
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
       padding-left: 20px;
     }
     @media (max-width: 576px) {
@@ -45,7 +47,7 @@
     font-size: 20px;
     line-height: 1.2;
     padding-bottom: 15px;
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
       font-size: 18px;
     }
     @media (max-width: 576px) {
@@ -65,7 +67,7 @@
   }
   &__img {
     padding-right: 70px;
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       padding-right: 0;
     }
   }
@@ -76,11 +78,11 @@
     font-size: 20px;
     line-height: 1.2;
     color: #0e6c67;
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
       padding: 40px 60px;
     }
     @media (max-width: 576px) {
-      padding: 20px 40px;
+      padding: 20px 0;
       text-align: start;
       font-size: 16px;
     }
