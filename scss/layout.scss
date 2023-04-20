@@ -2,6 +2,7 @@
 img {
   max-width: 100%;
 }
+
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -9,11 +10,13 @@ body {
   line-height: 1.2;
   color: #24312d;
 }
+
 .container {
   max-width: 1280px;
   padding: 0 10px;
   margin: 0 auto;
 }
+
 // Оформление для заголовков
 .title {
   font-weight: 700;
@@ -22,4 +25,12 @@ body {
   color: #0e6c67;
   text-transform: uppercase;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 35px;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 30px;
+  }
 }
