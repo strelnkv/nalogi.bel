@@ -71,7 +71,7 @@
       </section>
       <!--end hero-->
       <!--start services-->
-      <section class="services container" id="services">
+      <section class="services container">
         <h2 class="services__h2 title" id="services">
           Услуги, которые мы оказываем
         </h2>
@@ -81,7 +81,10 @@
               <source
                 srcset="assets/images/services-img-1.png"
                 media="(min-width: 1024px)" />
-              <img src="assets/images/services-img-1-mobile.png" alt="cup"
+              <img
+                class="services__img"
+                src="assets/images/services-img-1-mobile.png"
+                alt="cup"
             /></picture>
             <div class="services__wrap">
               <a
@@ -97,7 +100,10 @@
               <source
                 srcset="assets/images/services-img-2.png"
                 media="(min-width: 1024px)" />
-              <img src="assets/images/services-img-2-mobile.png" alt="laptop"
+              <img
+                class="services__img"
+                src="assets/images/services-img-2-mobile.png"
+                alt="laptop"
             /></picture>
             <div class="services__wrap">
               <a
@@ -113,7 +119,10 @@
               <source
                 srcset="assets/images/services-img-3.png"
                 media="(min-width: 1024px)" />
-              <img src="assets/images/services-img-3-mobile.png" alt="notebook"
+              <img
+                class="services__img"
+                src="assets/images/services-img-3-mobile.png"
+                alt="notebook"
             /></picture>
             <div class="services__wrap">
               <a
@@ -129,11 +138,11 @@
       </section>
       <!--end services-->
       <!--start about me-->
-      <section class="aboutme container" id="about_me">
+      <section class="aboutme container">
         <h2 class="aboutme__h2 title">Обо мне</h2>
         <div class="aboutme__content">
-          <picture
-            ><source
+          <picture>
+            <source
               srcset="assets/images/aboutme-img-1.png"
               media="(min-width: 1024px)" />
             <img
@@ -183,7 +192,7 @@
       </section>
       <!--end about me-->
       <!--start why us-->
-      <section class="why-us" id="why_us">
+      <section class="why-us">
         <div class="why-us__background">
           <div class="why-us__quote container">
             <div class="why-us__mark-1">
@@ -291,6 +300,7 @@
       </section>
       <!--end why us-->
       <!--start articles-->
+      <!--start articles-->
       <section class="articles" id="articles">
         <div class="articles_publications container">
           <h2 class="articles__header title">Статьи и публикации</h2>
@@ -329,6 +339,7 @@
           </div>
         </div>
       </section>
+
       <!--end articles-->
       <!--start prices-->
       <section class="prices">
@@ -350,6 +361,116 @@
         </div>
       </section>
       <!--end prices-->
+      <!--start contacts-->
+      <section class="contacts">
+        <div class="contacts__wrap">
+          <div class="contacts__content">
+            <div class="contacts__part-left">
+              <h2 class="contacts__title-2 title">КОНТАКТЫ</h2>
+              <h3 class="contacts__title-3">Тихонова Татьяна Григорьевна</h3>
+              <address class="contacts__address">
+                <div class="contacts__geolocation">
+                  <img src="./assets/images/contacts-geo-icon.svg" alt="" />
+                  <a href="#">г. Минск, ул. Неманская, 2</a>
+                </div>
+                <div class="contacts__mobile-numbers">
+                  <img
+                    src="./assets/images/contacts-mobile-number-icon.svg"
+                    alt=""
+                  />
+                  <div class="contacts__mobile-numbers-group">
+                    <a href="tel:+375447563608">+375447563608 – мобильный</a>
+                    <a href="tel:+80173422095">+80173422095 – офис</a>
+                  </div>
+                </div>
+                <div class="contacts__telegram">
+                  <img
+                    src="./assets/images/contacts-telegram-icon.svg"
+                    alt=""
+                  />
+                  <a href="https://t.me/T040484" target="_blank"
+                    >Связаться со мной в Telegram</a
+                  >
+                </div>
+                <div class="contacts__email">
+                  <img src="./assets/images/contacts-email-icon.svg" alt="" />
+                  <a href="mailto:t04041984@gmail.com" target="_blank"
+                    >t04041984@gmail.com</a
+                  >
+                </div>
+              </address>
+            </div>
+            <div class="contacts__part-right">
+              <iframe
+                class="contacts__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.3223623737094!2d27.423505776211936!3d53.908247332533094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc4cd3f488c15%3A0x30b139b78a7b6bd1!2z0YPQuy4g0J3RkdC80LDQvdGB0LrQsNGPIDIsINCc0LjQvdGB0LosINCR0LXQu9Cw0YDRg9GB0Yw!5e0!3m2!1sru!2sru!4v1681928521335!5m2!1sru!2sru"
+                width="800"
+                height="600"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end contacts-->
     </main>
+    <footer class="footer">
+      <div class="footer__content container">
+        <div class="footer__geolocation">
+          <h3 class="footer__title">
+            Индивидуальный предприниматель Тихонова Татьяна Григорьевна
+          </h3>
+          <address class="footer__address-1">
+            <p>Адрес регистрации:<br />220063, г. Минск, ул. Неманская, 3</p>
+            <p>Адрес офиса:<br />220063, г. Минск, ул. Неманская, 2</p>
+            <p>УНП 193406949</p>
+          </address>
+        </div>
+        <div class="footer__privacy-policy">
+          <a class="footer__privacy-policy-link" href="#"
+            >Политика конфиденциальности</a
+          >
+          <p>© Все права защищены | 2023</p>
+        </div>
+        <address class="footer__address-2">
+          <div class="footer__socials">
+            <a href="https://www.instagram.com/nalogi.bel/"
+              ><img
+                src="./assets/images/footer-inst-icon.svg"
+                target="_blank"
+                alt="instagram"
+            /></a>
+            <a href="https://wa.me/375447563608"
+              ><img
+                src="./assets/images/footer-whats-app-icon.svg"
+                target="_blank"
+                alt="whatsapp"
+            /></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100061144802515&mibextid=ZbWKwL"
+              ><img
+                src="./assets/images/footer-facebook-icon.svg"
+                target="_blank"
+                alt="facebook"
+            /></a>
+          </div>
+          <a
+            class="footer__telegram-group-link"
+            href="https://t.me/+0LnD_qpn-MAwNmRi"
+            target="_blank"
+            >Telegram-канал<img
+              src="./assets/images/footer-telegram-icon.svg"
+              alt=""
+          /></a>
+          <a href="mailto:t04041984@gmail.com" target="_blank"
+            >t04041984@gmail.com</a
+          >
+          <a href="tel:+375447563608">+375447563608</a>
+        </address>
+      </div>
+    </footer>
   </body>
 </html>
