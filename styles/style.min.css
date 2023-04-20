@@ -221,8 +221,8 @@ body {
 }
 
 .aboutme__content {
-  display: flex;
   padding-bottom: 155px;
+  display: flex;
 }
 
 .aboutme__h2 {
@@ -497,6 +497,7 @@ body {
 .service-1__desc-title {
   padding: 31px 150px 15px;
   text-align: center;
+  text-transform: none;
 }
 @media (max-width: 1024px) {
   .service-1__desc-title {
@@ -589,6 +590,7 @@ body {
 .service-2__title {
   padding: 15px 0;
   text-align: center;
+  text-transform: none;
 }
 @media (max-width: 992px) {
   .service-2__title {
@@ -693,6 +695,7 @@ body {
 }
 .service-3__title {
   text-align: center;
+  text-transform: none;
   padding: 20px 100px 0;
 }
 @media (max-width: 768px) {
