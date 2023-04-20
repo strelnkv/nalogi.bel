@@ -25,11 +25,11 @@
           alt="nalogi.bel"
         />
         <ul class="header__nav">
-          <li><a class="header__items" href="">услуги</a></li>
-          <li><a class="header__items" href="">обо мне</a></li>
-          <li><a class="header__items" href="">преимущества</a></li>
-          <li><a class="header__items" href="">публикации</a></li>
-          <li><a class="header__items" href="">контакты</a></li>
+          <li><a class="header__items" href="#services">услуги</a></li>
+          <li><a class="header__items" href="#about_me">обо мне</a></li>
+          <li><a class="header__items" href="#why_us">преимущества</a></li>
+          <li><a class="header__items" href="#articles">публикации</a></li>
+          <li><a class="header__items" href="contacts">контакты</a></li>
         </ul>
         <a class="header__number" href="tel:+375447563608">
           <p>Контактный номер</p>
@@ -71,7 +71,7 @@
       </section>
       <!--end hero-->
       <!--start services-->
-      <section class="services container">
+      <section class="services container" id="services">
         <h2 class="services__h2 title" id="services">
           Услуги, которые мы оказываем
         </h2>
@@ -129,7 +129,7 @@
       </section>
       <!--end services-->
       <!--start about me-->
-      <section class="aboutme container">
+      <section class="aboutme container" id="about_me">
         <h2 class="aboutme__h2 title">Обо мне</h2>
         <div class="aboutme__content">
           <picture
@@ -183,7 +183,7 @@
       </section>
       <!--end about me-->
       <!--start why us-->
-      <section class="why-us">
+      <section class="why-us" id="why_us">
         <div class="why-us__background">
           <div class="why-us__quote container">
             <div class="why-us__mark-1">
@@ -291,19 +291,61 @@
       </section>
       <!--end why us-->
       <!--start articles-->
+      <section class="articles" id="articles">
+        <div class="articles_publications container">
+          <h2 class="articles__header title">Статьи и публикации</h2>
+          <div class="articles__slides">
+            <div class="articles__slide slide1">
+              <div class="articles__wrap1">
+                <img src="./assets/images/articles-img-3.svg" />
+                <div class="articles__desc">
+                  <h3>Татьяна Тихонова</h3>
+                  <p>налоговый консультант, <br />главный бухгалтер</p>
+                </div>
+              </div>
+              <div class="articles__link">
+                <a href="./pages/article-1.html" target="_blank"
+                  >Особенности административной ответственности за незаконную
+                  предпринимательскую деятельность</a
+                >
+              </div>
+            </div>
+            <div class="articles__slide slide2">
+              <div class="articles__wrap1">
+                <img src="./assets/images/articles-img-4.svg" />
+                <div class="articles__desc">
+                  <h3>Татьяна Тихонова</h3>
+                  <p>налоговый консультант, <br />главный бухгалтер</p>
+                </div>
+              </div>
+              <div class="articles__link">
+                <a href="./pages/article-2.html" target="_blank"
+                  >Об особенностях защиты по статье 243 УК и участия в
+                  процессуальных проверках, предполагающих уголовно наказуемые
+                  нарушения налогового законодательства
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!--end articles-->
       <!--start prices-->
       <section class="prices">
         <div class="prices__background">
           <div class="prices__pattern">
-              <img src="assets/images/prices-img-1.png" alt="pattern">
+            <img src="assets/images/prices-img-1.png" alt="pattern" />
           </div>
           <div class="container prices__body">
             <h2 class="prices__title title">Стоимость услуг</h2>
-            <p class="prices__text">Цены на аутсорсинг бухгалтерских услуг формируются в зависимости от размера вашей организации, объема хозяйственной деятельности и используемой системы налогообложения.</p>
+            <p class="prices__text">
+              Цены на аутсорсинг бухгалтерских услуг формируются в зависимости
+              от размера вашей организации, объема хозяйственной деятельности и
+              используемой системы налогообложения.
+            </p>
           </div>
           <div class="prices__picture">
-              <img src="assets/images/prices-img-2.png" alt="book">
+            <img src="assets/images/prices-img-2.png" alt="book" />
           </div>
         </div>
       </section>
