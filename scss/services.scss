@@ -1,6 +1,6 @@
 .services {
   &__h2 {
-    padding: 80px 0;
+    padding: 50px 0;
   }
 
   &__item-all {
@@ -16,7 +16,7 @@
       justify-content: center;
       flex-direction: row;
       column-gap: 45px;
-      padding-bottom: 80px;
+      padding-bottom: 50px;
       padding-left: 10px;
     }
   }
@@ -33,7 +33,6 @@
   @media screen and (min-width: 1223px) {
     width: 289px;
     flex-direction: column;
-    column-gap: none;
   }
 }
 
@@ -57,7 +56,7 @@
   .services__a {
     text-decoration: none;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 34px;
     color: #0e6c67;
 
