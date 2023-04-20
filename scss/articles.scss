@@ -17,7 +17,7 @@
   }
   &__h1 {
     font-size: calc(10px + 20 * (100vw / 1440));
-    line-height: 1.25;
+    line-height: 1.5;
     color: #0e6c67;
     text-align: center;
     padding: 25px 0 25px;
@@ -27,28 +27,28 @@
   &__authors {
     font-style: italic;
     font-weight: 400;
-    font-size: calc(6px + 10 * (100vw / 1440));
+    font-size: calc(8px + 10 * (100vw / 1440));
     line-height: 27px;
     text-align: right;
-    line-height: 1.25;
+    line-height: 1.5;
   }
   &__author {
     padding-bottom: 25px;
   }
   &__text {
-    line-height: 1.25;
-    font-size: calc(6px + 10 * (100vw / 1440));
+    line-height: 1.5;
+    font-size: calc(8px + 10 * (100vw / 1440));
     padding-bottom: 12px;
     text-align: justify;
   }
   &__text-link {
-    line-height: 1.25;
-    font-size: calc(6px + 10 * (100vw / 1440));
+    line-height: 1.5;
+    font-size: calc(8px + 10 * (100vw / 1440));
     padding-top: 25px;
   }
   &__bullits-points {
-    line-height: 1.25;
-    font-size: calc(6px + 10 * (100vw / 1440));
+    line-height: 1.5;
+    font-size: calc(8px + 10 * (100vw / 1440));
     margin-left: 15px;
     padding-bottom: 12px;
     text-align: justify;

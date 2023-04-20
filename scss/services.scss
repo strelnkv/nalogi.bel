@@ -1,6 +1,6 @@
 .services {
   &__h2 {
-    padding: 80px 0;
+    padding: 50px 0;
   }
 
   &__item-all {
@@ -16,7 +16,7 @@
       justify-content: center;
       flex-direction: row;
       column-gap: 45px;
-      padding-bottom: 80px;
+      padding-bottom: 50px;
       padding-left: 10px;
     }
   }
@@ -26,19 +26,27 @@
   width: 289px;
   display: flex;
   flex-direction: row;
-  column-gap: 20px;
+  justify-content: center;
+  column-gap: 10px;
+  margin-bottom: 15px;
 
   @media screen and (min-width: 767px) {
   }
   @media screen and (min-width: 1223px) {
     width: 289px;
     flex-direction: column;
-    column-gap: none;
+    justify-content: flex-start;
+  }
+}
+
+.services__item:nth-child(3) {
+  @media screen and (min-width: 300px) {
+    align-items: center;
   }
 }
 
 .services__img {
-  min-width: 128px;
+  min-width: 60px;
   padding-bottom: 21px;
 
   @media screen and (min-width: 767px) {
@@ -57,13 +65,16 @@
   .services__a {
     text-decoration: none;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 16px;
     line-height: 34px;
     color: #0e6c67;
 
     @media screen and (min-width: 767px) {
     }
     @media screen and (min-width: 1223px) {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 34px;
     }
   }
   .services__a:hover {
