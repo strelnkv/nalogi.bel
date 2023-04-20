@@ -3,16 +3,6 @@ img {
   max-width: 100%;
 }
 
-button {
-  color: inherit;
-  font-size: inherit;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-  padding: 0;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -351,7 +341,7 @@ body {
   display: flex;
   justify-content: center;
   column-gap: 45px;
-  padding-bottom: 150px;
+  padding-bottom: 80px;
 }
 
 .services__item {
@@ -383,6 +373,7 @@ body {
 }
 
 .aboutme__content {
+  padding-bottom: 155px;
   display: flex;
 }
 
@@ -390,10 +381,15 @@ body {
   padding: 80px 0 45px;
 }
 
-.aboutme__text1 {
-  width: 768px;
-  padding: 32px 26px;
+.aboutme__container {
+  margin-left: -31px;
+  margin-top: 78px;
   position: relative;
+}
+
+.aboutme__text1 {
+  width: 728px;
+  padding: 46px 26px;
   z-index: 1;
   background-color: #f0f1f6;
   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
@@ -408,9 +404,11 @@ body {
 .aboutme__p1 {
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 22px;
   line-height: 28px;
+  text-indent: 30px;
+  text-align: justify;
 }
 
 .aboutme__text2 {
@@ -440,7 +438,9 @@ body {
 
 .aboutme__img2 {
   position: absolute;
-  z-index: 1;
+  left: 609px;
+  top: -51px;
+  z-index: 2;
 }
 
 .why-us__background {
@@ -651,6 +651,7 @@ body {
 .service-1__desc-title {
   padding: 31px 150px 15px;
   text-align: center;
+  text-transform: none;
 }
 @media (max-width: 1024px) {
   .service-1__desc-title {
@@ -743,6 +744,7 @@ body {
 .service-2__title {
   padding: 15px 0;
   text-align: center;
+  text-transform: none;
 }
 @media (max-width: 992px) {
   .service-2__title {
@@ -847,6 +849,7 @@ body {
 }
 .service-3__title {
   text-align: center;
+  text-transform: none;
   padding: 20px 100px 0;
 }
 @media (max-width: 768px) {
