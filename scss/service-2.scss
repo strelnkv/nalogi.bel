@@ -13,6 +13,7 @@
   &__title {
     padding: 15px 0;
     text-align: center;
+    text-transform: none;
     @media (max-width: 992px) {
       font-size: 35px;
     }
