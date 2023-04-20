@@ -221,8 +221,8 @@ body {
 }
 
 .aboutme__content {
-  display: flex;
   padding-bottom: 155px;
+  display: flex;
 }
 
 .aboutme__h2 {
@@ -237,7 +237,7 @@ body {
 
 .aboutme__text1 {
   width: 728px;
-  padding: 32px 26px;
+  padding: 46px 26px;
   z-index: 1;
   background-color: #f0f1f6;
   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
@@ -255,6 +255,8 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
+  text-indent: 30px;
+  text-align: justify;
 }
 
 .aboutme__text2 {
