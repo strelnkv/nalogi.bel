@@ -431,9 +431,24 @@ body {
 .aboutme__img2 {
   width: 15%;
   position: absolute;
-  left: 248px;
-  top: -21px;
+  right: 17px;
+  top: -18px;
   z-index: 2;
+}
+@media screen and (min-width: 500px) {
+  .aboutme__img2 {
+    top: -31px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .aboutme__img2 {
+    top: -43px;
+  }
+}
+@media screen and (min-width: 733px) {
+  .aboutme__img2 {
+    top: -53px;
+  }
 }
 @media screen and (min-width: 1223px) {
   .aboutme__img2 {
@@ -449,6 +464,11 @@ body {
   z-index: 1;
   background-color: #f0f1f6;
   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+}
+@media screen and (min-width: 400px) {
+  .aboutme__text1 {
+    padding: 46px 26px;
+  }
 }
 @media screen and (min-width: 1223px) {
   .aboutme__text1 {
