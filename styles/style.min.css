@@ -2,16 +2,6 @@ img {
   max-width: 100%;
 }
 
-button {
-  color: inherit;
-  font-size: inherit;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-  padding: 0;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
