@@ -1216,7 +1216,7 @@ body {
 }
 .article__h1 {
   font-size: calc(10px + 1.3888888889vw);
-  line-height: 1.25;
+  line-height: 1.5;
   color: #0e6c67;
   text-align: center;
   padding: 25px 0 25px;
@@ -1226,28 +1226,28 @@ body {
 .article__authors {
   font-style: italic;
   font-weight: 400;
-  font-size: calc(6px + 0.6944444444vw);
+  font-size: calc(8px + 0.6944444444vw);
   line-height: 27px;
   text-align: right;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 .article__author {
   padding-bottom: 25px;
 }
 .article__text {
-  line-height: 1.25;
-  font-size: calc(6px + 0.6944444444vw);
+  line-height: 1.5;
+  font-size: calc(8px + 0.6944444444vw);
   padding-bottom: 12px;
   text-align: justify;
 }
 .article__text-link {
-  line-height: 1.25;
-  font-size: calc(6px + 0.6944444444vw);
+  line-height: 1.5;
+  font-size: calc(8px + 0.6944444444vw);
   padding-top: 25px;
 }
 .article__bullits-points {
-  line-height: 1.25;
-  font-size: calc(6px + 0.6944444444vw);
+  line-height: 1.5;
+  font-size: calc(8px + 0.6944444444vw);
   margin-left: 15px;
   padding-bottom: 12px;
   text-align: justify;
