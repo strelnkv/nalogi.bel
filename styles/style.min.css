@@ -456,28 +456,12 @@ body {
     justify-content: center;
   }
 }
-@media screen and (min-width: 1223px) {
-  .aboutme__content {
-    padding-left: 10px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-}
 .aboutme__content__img1 {
   min-width: 200px;
   align-self: center;
   padding-bottom: 20px;
 }
 @media screen and (min-width: 1024px) {
-  .aboutme__content__img1 {
-    width: 489px;
-    padding-bottom: 0;
-    z-index: -1;
-  }
-}
-@media screen and (min-width: 1223px) {
   .aboutme__content__img1 {
     width: 489px;
     padding-bottom: 0;
@@ -494,13 +478,6 @@ body {
   }
 }
 @media screen and (min-width: 1024px) {
-  .aboutme__container {
-    margin-left: -31px;
-    margin-top: 78px;
-    position: relative;
-  }
-}
-@media screen and (min-width: 1223px) {
   .aboutme__container {
     margin-left: -31px;
     margin-top: 78px;
@@ -585,7 +562,6 @@ body {
 @media screen and (min-width: 1223px) {
   .aboutme__text1 {
     width: 728px;
-    padding: 46px 26px;
   }
 }
 
@@ -608,27 +584,12 @@ body {
     text-align: justify;
   }
 }
-@media screen and (min-width: 1223px) {
-  .aboutme__p1 {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-indent: 30px;
-    text-align: justify;
-  }
-}
 
 .aboutme__text2 {
   padding-top: 25px;
   padding-left: 33px;
 }
 @media screen and (min-width: 500px) {
-  .aboutme__text2 {
-    padding-top: 25px;
-    padding-left: 75px;
-  }
-}
-@media screen and (min-width: 1223px) {
   .aboutme__text2 {
     padding-top: 25px;
     padding-left: 75px;
@@ -650,13 +611,6 @@ body {
     line-height: 28px;
   }
 }
-@media screen and (min-width: 1223px) {
-  .aboutme__h3 {
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 28px;
-  }
-}
 
 .aboutme__p2 {
   font-family: "Open Sans";
@@ -667,13 +621,6 @@ body {
   color: #6e7d7a;
 }
 @media screen and (min-width: 1024px) {
-  .aboutme__p2 {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-  }
-}
-@media screen and (min-width: 1223px) {
   .aboutme__p2 {
     font-weight: 400;
     font-size: 18px;
