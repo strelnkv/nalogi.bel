@@ -1,4 +1,6 @@
 .articles {
+  padding-top: 50px;
+  padding-bottom: 50px;
   &__carousel {
   }
   &__slides {
@@ -6,8 +8,8 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
-    padding-top: 110px;
-    padding-bottom: 228px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   &__slide {
     padding: 32px 35px 49px 35px;
@@ -26,6 +28,9 @@
     padding-top: 20px;
     font-size: 18px;
     line-height: 27px;
+    @media (max-width: 576px) {
+      font-size: 16px;
+    }
   }
   &__link:hover {
     color: #0fa7a0;
