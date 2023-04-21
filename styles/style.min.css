@@ -1,4 +1,3 @@
-@charset "UTF-8";
 img {
   max-width: 100%;
 }
@@ -44,14 +43,12 @@ body {
   .hamburger-menu {
     display: block;
   }
-  /* скрываем чекбокс */
   #menu__toggle {
     opacity: 0;
   }
-  /* стилизуем кнопку */
   .menu__btn {
-    display: flex; /* используем flex для центрирования содержимого */
-    align-items: center; /* центрируем содержимое кнопки */
+    display: flex;
+    align-items: center;
     position: fixed;
     top: 20px;
     left: 20px;
@@ -60,7 +57,6 @@ body {
     cursor: pointer;
     z-index: 1;
   }
-  /* добавляем "гамбургер" */
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -78,7 +74,6 @@ body {
     content: "";
     top: 8px;
   }
-  /* контейнер меню */
   .menu__box {
     display: block;
     position: fixed;
@@ -94,7 +89,6 @@ body {
     background-color: #f0f1f6;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
   }
-  /* элементы меню */
   .menu__item {
     display: block;
     padding: 12px 24px;
@@ -268,7 +262,13 @@ body {
   gap: 28px;
   font-size: 20px;
 }
+@media (max-width: 576px) {
+  .hero__pros__item p {
+    font-size: 16px;
+  }
+}
 .hero__image {
+  width: 90%;
   grid-area: img;
   position: relative;
 }
@@ -278,6 +278,7 @@ body {
 @media (max-width: 1024px) {
   .hero__img-main {
     width: 60%;
+    margin: 0 auto;
   }
 }
 @media (max-width: 768px) {
@@ -292,19 +293,23 @@ body {
   height: 100%;
   display: block;
   position: absolute;
-  bottom: -1px;
+  bottom: 0px;
   right: 0;
   z-index: 20;
   background-image: linear-gradient(180deg, rgba(245, 245, 245, 0) 64%, #f0f1f6 100%);
 }
 
+.articles {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .articles__slides {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
-  padding-top: 110px;
-  padding-bottom: 228px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .articles__slide {
   padding: 32px 35px 49px 35px;
@@ -321,6 +326,11 @@ body {
   padding-top: 20px;
   font-size: 18px;
   line-height: 27px;
+}
+@media (max-width: 576px) {
+  .articles__link {
+    font-size: 16px;
+  }
 }
 .articles__link:hover {
   color: #0fa7a0;
