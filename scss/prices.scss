@@ -4,6 +4,12 @@
     &__background {
         background-color: #F0F1F6;
         height: 100%;
+    }
+
+    &__pictures-container {
+        max-width: 1440px;
+        height: 100%;
+        margin: auto;
         position: relative;
     }
 
@@ -15,45 +21,24 @@
 }
 
     &__body {
-        max-width: 80%;
         height: 100%;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        gap: 10%;
-        padding-top: 5%;
+        max-width: 70%;
+        padding-top: 50px;
         position: relative;
         z-index: 1;
-
-        @media screen and (max-width: 767px) {
-            padding-top: 15%;
-            gap: 5%;
-        };
-}
-    &__title{
-        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
         text-align: center;
+}
 
-        font-family: "Open Sans", sans-serif;
-        src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
+    &__text {
+        padding-top: 50px;
+        font-size: 18px;
 
-        @media screen and (max-width: 767px) {
-            font-size: 30px;
-        };
-
+        @media screen and (min-width: 768px) {
+            font-size: 22px;
+        }
     }
-    &__text{
-        font-family: "Open Sans", sans-serif;
-        src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
-        font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-
-    }
-
 
     &__picture {
         position: absolute;
