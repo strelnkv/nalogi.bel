@@ -6,92 +6,58 @@
     &__quote {
         height: 450px;
         display: grid;
-        grid-template-columns: 15% 1fr 15%;
+        grid-template-columns: 13% 1fr 13%;
         grid-template-areas: "why-us__mark-1 why-us__text-0 why-us__mark-2";
     }
 
     &__mark-1 {
         justify-self: center;
-        padding-top: 20%;
+        padding-top: 50px;
     }
 
     &__text-0 {
-        text-align: center;
         align-self: center;
-        text-transform: uppercase;
-        line-height: 180%;
-
-        font-family: "Open Sans", sans-serif;
-        src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-
-        @media screen and (max-width: 767px) {
-            font-size: 30px;
-        };
+        line-height: 1.8;
     }
 
     &__mark-2 {
         justify-self: center;
         align-self: flex-end;
-        padding-bottom: 20%;
-    }
-
-    &__body {
-        padding: 5% 0;
+        padding-bottom: 50px;
     }
 
     &__title {
-        text-transform: uppercase;
-        text-align: center;
-
-        font-family: "Open Sans", sans-serif;
-        src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-
-        @media screen and (max-width: 767px) {
-            font-size: 30px;
-        };
+        padding: 50px 0 0 0;
     }
 
     &__grid {
+        padding: 50px 15px;
         justify-content: center;
-        padding-top: 10%;
         display: grid;
         grid-auto-flow: column;
-        gap: 30px;
-        padding-left: 10px;
-        @media screen and (max-width: 1023px){
-        grid-template-rows: 1.2fr 0.7fr 1fr 0.7fr 1fr 0.7fr 1fr;
+
+        grid-template-rows: auto auto auto auto auto auto auto;
+        gap: 25px;
+
+        @media screen and (min-width: 768px){
+            font-size: 18px;
         }
 
         @media screen and (min-width: 1024px) {
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr 1fr;
-
+            grid-template-rows: auto auto auto auto;
+            gap: 35px;
+            font-size: 22px;
         }
     }
 
     &__li {
         display: flex;
         gap: 20px;
-
-        font-family: "Open Sans", sans-serif;
-        src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px
     }
 
     &__icon {
         max-height: 60px;
-    }
-
-    &__text {
-        max-width: 600px;
     }
 
 }
