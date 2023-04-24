@@ -14,6 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section {
+  scroll-margin-top: 100px;
+}
+
 .container {
   max-width: 1280px;
   padding: 0 10px;
@@ -27,6 +31,7 @@ html {
   color: #0e6c67;
   text-transform: uppercase;
   text-align: center;
+  scroll-margin-top: 100px;
 }
 @media (max-width: 768px) {
   .title {
