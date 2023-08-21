@@ -1,5 +1,7 @@
 # NALOGI.BEL
 
+## Ссылка на сайт
+[naogibel.by] (https://nalogibel.by)
 
 ## Ссылка на макет из Figma:
 [NALOGI.BEL](https://www.figma.com/file/2b6GRTG5pv3smksv2xq5SY/Project-2?node-id=97-10&t=Q49uVXqhwhgGJdh5-0)
